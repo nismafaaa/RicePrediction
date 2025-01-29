@@ -21,7 +21,7 @@ The dataset contains daily weather measurements and rice prices with the followi
   - `harga_beras_premium`: Premium rice price
 
 ## Feature Selection
-![Correlation Analysis](images\corr_matrix.png)
+![Correlation Analysis](images/corr_matrix.png)
 
 Based on correlation analysis:
 - Wind-related features (`ff_x`, `ddd_x`, `ff_avg`) were dropped due to near-zero correlation with other features and target variables
