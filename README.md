@@ -43,8 +43,8 @@ Initial data visualization was performed for each feature to identify patterns a
   - Sunshine duration (ss)
   - Wind measurements (ff_x, ddd_x, ff_avg)
   - Rice prices (medium and premium)
-![Subplots of Weather Features and Rice Prices](images\feature_visualization.png)
-![Subplots of Weather Features and Rice Prices](images\feature_visualization_2.png)
+![Subplots of Weather Features and Rice Prices](images/feature_visualization.png)
+![Subplots of Weather Features and Rice Prices](images/feature_visualization_2.png)
 
 ### Identified Anomalies
 Through visualization, several data quality issues were discovered:
@@ -67,7 +67,7 @@ Based on the identified anomalies, the following preprocessing steps were implem
    - Used linear interpolation for remaining gaps
 
 2. **Outlier Handling:**
-![Boxplot of Features](images\boxplot.png) 
+![Boxplot of Features](images/boxplot.png) 
    - Based on the boxplot, it shows that some of the features have outliers especially the target features
    - Implemented IQR method with 2.5 * IQR bounds
    - Special handling for sunshine duration (capped at 12 hours)
@@ -132,8 +132,8 @@ The model's performance is evaluated using Root Mean Squared Error (RMSE):
 - **Test Score:** 1201.92  
 
 ## Results Visualization
-![Medium Price Result](images\result_medium.png)
-![Premium Price Result](images\result_premium.png)
+![Medium Price Result](images/result_medium.png)
+![Premium Price Result](images/result_premium.png)
 
 ### Model Performance Analysis
 Based on the visualization results:
@@ -161,4 +161,4 @@ Based on the visualization results:
 ## About the Project
 This project was initially developed for **GEMASTIK XVI**. Big thanks to my teammate, [Fadhil](https://github.com/dhiiil), who helped gather the dataset. The weather dataset comes from **BMKG**, and the rice price data is sourced from **PIPHN**.  
 
-However, the remaining steps—**visualization, preprocessing, and modeling**—were entirely built by myself and are completely different from the competition's original approach.
+However, the remaining steps—**preprocessing, modeling, and part of the visualization**—were entirely built by myself and are completely different from the competition's original approach.
